@@ -1,4 +1,5 @@
 # 위치: https://school.programmers.co.kr/learn/courses/30/lessons/250137
+# 풀이: https://developing-kestrel.tistory.com/18
 
 from collections import deque
 
