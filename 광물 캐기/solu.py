@@ -21,7 +21,7 @@ def solution(picks, minerals):
             mineral_5_set[i//5][2] += 1
     
     mineral_5_set = sorted(mineral_5_set, key = lambda x:(-x[0], -x[1], -x[2]))   # 피로도 기준, 내림차순 정렬
-    ans = 0     # 필요 내구도
+    ans = 0     # 필요한 최소 내구도
     
     for i in mineral_5_set:
         da, ir, st = i
